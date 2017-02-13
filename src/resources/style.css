@@ -491,24 +491,41 @@ code.signature {
 	background: transparent;
 	padding: 0;
 	white-space: normal;
+	color: #737373;
 }
 
-code.signature .attributes {
+code.signature .name,
+code.signature .parameter,
+code.parameter {
+	color: #369;
+}
+
+code.signature .modifier {
 	float: right;
 	opacity: .6;
 }
 
 code.signature .type {
-	opacity: .6;
+	color: #693;
+}
+
+code.signature .modifier,
+code.signature .initializer {
+	color: #936;
+}
+
+code.signature code,
+code.signature var,
+code.parameter {
+	padding: 0;
+	border: 0;
+	font-style: normal;
+	background: transparent;
 }
 
 code.signature code,
 code.signature var {
-	padding: 0;
 	font-size: inherit;
-	font-style: normal;
-	border: 0;
-	background: transparent;
 }
 
 .class .methods .name, .class .properties .name, .class .constants .name {
