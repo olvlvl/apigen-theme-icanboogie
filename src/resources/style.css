@@ -38,6 +38,11 @@ h1 .type {
 	font-size: 1rem;
 }
 
+.version {
+	opacity: .6;
+	font-weight: 300;
+}
+
 h2 {
 	font-size: 2rem;
 }
