@@ -462,16 +462,14 @@ table.summary {
 	text-align: left;
 }
 
-.summary .description p {
-	margin: 0;
-}
-
-.class #methods.summary .description p:first-child, .summary .description.detailed h4:first-child {
-	margin-top: 8px;
-}
-
-.summary .description p + p, .summary .description ul, .summary .description pre, .summary .description.detailed h4 {
-	margin-top: 4px;
+.summary h4,
+.summary p,
+.summary pre,
+.summary ul,
+.list,
+.list dd + dt {
+	margin-top: .8333rem;
+	margin-bottom: 0;
 }
 
 .summary dl {
@@ -480,10 +478,6 @@ table.summary {
 
 .summary dd {
 	margin: 0 0 0 25px;
-}
-
-.summary dt, dd {
-	line-height: 24px;
 }
 
 code.signature {
@@ -571,11 +565,6 @@ code.signature var {
 	top: 30px;
 	margin-top: -10px;
 	margin-left: -10px;
-}
-
-.list {
-	margin: 0 0 5px 25px;
-	line-height: 24px;
 }
 
 .article-actions {
